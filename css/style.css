@@ -128,7 +128,7 @@ body,
 }
 
 body {
-  background: #eee;
+  background: rgb(208, 177, 123);
   font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-text-size-adjust: 100%;
 }
@@ -189,7 +189,7 @@ body {
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   z-index: 1;
-  background: #eee;
+  background: rgb(208, 177, 123);
 }
 
 .mobile-nav-on #wrap {
@@ -212,21 +212,22 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #999;
+  color: #F8E8CC;
   margin-bottom: 1em;
   margin-left: 5px;
   line-height: 1em;
-  text-shadow: 0 1px #fff;
+  text-shadow: 2px 2px #7c6545;
   font-weight: bold;
+  font-size: 16px;
 }
 
 .article-inner,
 .archive-article-inner {
-  background: #fff;
-  -webkit-box-shadow: 1px 2px 3px #ddd;
-  box-shadow: 1px 2px 3px #ddd;
-  border: 1px solid #ddd;
-  border-radius: 3px;
+  background: #f8e8cc;
+  -webkit-box-shadow: 1px 2px 3px #7c6545;
+  box-shadow: 1px 2px 3px #7c6545;
+  border: 3px solid #7c6545;
+  border-radius: 10px;
 }
 
 .article-entry h1,
@@ -606,7 +607,7 @@ body {
   text-decoration: none;
   font-size: 2em;
   font-weight: bold;
-  color: #555;
+  color: #7c6545;
   line-height: 1.1em;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -615,11 +616,11 @@ body {
 }
 
 a.article-title:hover {
-  color: #258fb8;
+  color: #3d6619;
 }
 
 .article-entry {
-  color: #555;
+  color: #7c6545;
   padding: 0 20px;
 }
 
@@ -737,7 +738,7 @@ a.article-title:hover {
 }
 
 .article-entry .caption {
-  color: #999;
+  color: #877d69;
   display: block;
   font-size: 0.9em;
   margin-top: 0.5em;
@@ -800,12 +801,12 @@ a.article-title:hover {
 }
 
 .article-footer a {
-  color: #999;
+  color: #7c6545;
   text-decoration: none;
 }
 
 .article-footer a:hover {
-  color: #555;
+  color: #3d6619;
 }
 
 .article-tag-list-item {
@@ -864,7 +865,7 @@ a.article-title:hover {
     margin-left: -4px;
     content: "";
     border-radius: 50%;
-    background: #ddd;
+    background: #F8E8CC;
     -webkit-box-shadow: 0 1px 2px #fff;
     box-shadow: 0 1px 2px #fff;
   }
@@ -872,8 +873,8 @@ a.article-title:hover {
 
 .article-nav-link-wrap {
   text-decoration: none;
-  text-shadow: 0 1px #fff;
-  color: #999;
+  text-shadow: 0 1px #7c6545;
+  color: #F8E8CC;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -883,7 +884,7 @@ a.article-title:hover {
 }
 
 .article-nav-link-wrap:hover {
-  color: #555;
+  color: #7c6545;
 }
 
 @media screen and (min-width: 768px) {
@@ -912,7 +913,7 @@ a.article-title:hover {
 .article-nav-caption {
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #ddd;
+  color: #F8E8CC;
   line-height: 1em;
   font-weight: bold;
 }
@@ -951,7 +952,7 @@ a.article-title:hover {
   box-sizing: border-box;
   font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   padding: 0 15px;
-  color: #555;
+  color: #7c6545;
   outline: none;
   border: 1px solid #ddd;
   border-radius: 3px 3px 0 0;
@@ -960,7 +961,7 @@ a.article-title:hover {
 }
 
 .article-share-links {
-  background: #eee;
+  background: #eaf3e6;
 }
 
 .article-share-links:before,
@@ -982,7 +983,7 @@ a.article-title:hover {
   display: block;
   float: left;
   position: relative;
-  color: #999;
+  color: #7c6545;
   text-shadow: 0 1px #fff;
 }
 
@@ -1127,7 +1128,7 @@ a.article-title:hover {
 .archive-article-title {
   text-decoration: none;
   font-weight: bold;
-  color: #555;
+  color: #7c6545;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
@@ -1136,7 +1137,7 @@ a.article-title:hover {
 }
 
 .archive-article-title:hover {
-  color: #258fb8;
+  color: #3d6619;
 }
 
 .archive-article-footer {
@@ -1219,14 +1220,14 @@ a.article-title:hover {
 }
 
 #footer {
-  background: #262a30;
+  background: #7c6545;
   padding: 50px 0;
-  border-top: 1px solid #ddd;
-  color: #999;
+  border-top: 1px solid #f8e8cc;
+  color: #f8e8cc;
 }
 
 #footer a {
-  color: #258fb8;
+  color: #5bb825;
   text-decoration: none;
 }
 
@@ -1241,7 +1242,7 @@ a.article-title:hover {
 
 .article-entry pre,
 .article-entry .highlight {
-  background: #2d2d2d;
+  background: #4a3000;
   margin: 0 -20px;
   padding: 15px 20px;
   border-style: solid;
@@ -1264,7 +1265,7 @@ a.article-title:hover {
 }
 
 .article-entry code {
-  background: #eee;
+  background: #eaf3e6;
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
 }
@@ -1494,18 +1495,18 @@ pre .javascript .function {
 }
 
 .widget {
-  color: #777;
-  text-shadow: 0 1px #fff;
-  background: #ddd;
-  -webkit-box-shadow: 0 -1px 4px #ccc inset;
-  box-shadow: 0 -1px 4px #ccc inset;
-  border: 1px solid #ccc;
+  color: #7c6545;
+  text-shadow: 0 1px #F8E8CC;
+  background: #cbb795;
+  -webkit-box-shadow: 0 -1px 4px #7c6545 inset;
+  box-shadow: 0 -1px 4px #7c6545 inset;
+  border: 1px solid #7c6545;
   padding: 15px;
   border-radius: 3px;
 }
 
 .widget a {
-  color: #258fb8;
+  color: #7c6545;
   text-decoration: none;
 }
 
@@ -1530,6 +1531,7 @@ pre .javascript .function {
   line-height: 1.6em;
   word-wrap: break-word;
   font-size: 0.9em;
+  font-weight: 800;
 }
 
 .widget ul,
